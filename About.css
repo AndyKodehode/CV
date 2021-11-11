@@ -1,0 +1,85 @@
+
+body{
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+nav{
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#burger img{
+    width: 2rem;    
+}
+
+#arrow img{
+    width: 1.7rem;
+    
+}
+
+
+.main-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-cont img{
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.text-cont{
+    width: 30rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-right: 3rem;
+}
+
+.text-cont p{
+    margin-top: 4rem;
+}
+
+.fritid-cont{
+    width: 60rem;
+    margin: auto;
+    margin-top: 6rem;
+    
+}
+
+.fritid-cont h2{
+     text-align: center;
+     margin-bottom: 5rem;
+     font-size: 2rem;
+     font-family:"Alex Brush";
+     text-decoration: underline;
+}
+
+.icon-cont{
+    display: flex;
+    text-align: center;
+}
+
+.icon-cont h3{
+    color: rgb(48, 47, 47);
+    font-weight: 400;
+}
+
+.icon-cont img{
+     width: 5rem;
+     padding-bottom: 1rem;
+     padding-right:5rem;
+     padding-left: 5rem;
+
+}

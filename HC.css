@@ -1,0 +1,39 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+
+
+}
+
+nav img{
+    width: 2rem;
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.text-cont{
+   margin-right: 3rem;
+}
+.img-cont{
+    width: 60%;
+}
+
+.img-cont img{
+    width: 80%
+}
+
+h1{
+    display: none;
+    font-size: 4rem;
+    margin-right: 2rem;
+}
+h1.active{
+    display: block;
+}
