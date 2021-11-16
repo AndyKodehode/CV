@@ -81,7 +81,7 @@ nav img{
     margin-bottom: 15rem;
 }
 
-#C-img-cont img{
+#streaming-img-cont img{
     position:relative;
     width: 70%;
     margin-left: 20rem;
@@ -89,38 +89,60 @@ nav img{
 }
 
 
-#K-img-cont img{
+#kahoot-img-cont img{
     display: block;
     position: absolute;
     width: 50%;
     top: 90rem;
     margin-left: 5rem;
     filter: drop-shadow(2px 3px 3px #d6d6e0);
-    animation: 2s fadeIn;
-    animation-fill-mode: forwards;
-    visibility: hidden;
+   
 }
 
-#K-img-cont img:focus-visible {
-     
-    animation: fadeIn;
+
+
+.from-left{
+    animation-name: left-side ;
+    animation-duration: 2s;
+}
+
+@keyframes left-side{
+   
+    0%{
+     transform: translateX(-50%);
     
+     opacity: 0;}
+
+     100%{
+     
+     transform: translateX(0);
+     transition: 3s ease-in;
+     opacity: 1;
+     }
+
 }
 
-@keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      visibility: visible;
-      opacity: 1;
-    }
-  }
+.from-right {
+    animation-name: right-side;
+    animation-duration: 2s;
+}
 
+@keyframes right-side {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+      }
+    100%  {
+        transform: translateX(0);
+        transition: 3s ease-in;
+        opacity: 1;
+      }
+    
+    }
 
 .title-cont{
     display: flex;
-    margin-top: rem;
+    margin-top: 2rem;
     margin-left: 70rem;
     border-bottom-style: solid;
     border-color: rgba(77, 77, 77, 0.795); ;
@@ -218,6 +240,5 @@ button:hover{
 }
 
 
-/*FADE IN, OPACITY AND TRANSLATE X*/
 
 

@@ -14,35 +14,48 @@ nav img{
 
 .main-cont{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding-right: 5rem;
+    margin-bottom: 5rem;
+    
+    
 }
+
+
 
 .img-cont{
     width: 500px;
     height: 500px;
     position: relative;
-    overflow: hidden;
-    margin-top: 1rem;
+    overflow:hidden;
+    margin-top: 5rem;
     border-radius: 50%;
+    
 
 }
 
-.img-cont img{
+.img-circle{
     display: none;
-    width: 70%;
+    width: 100%;
+    
+    
 }
 
 
-.img-cont img.active{
+.img-circle.active{
     display: inline;
-    margin: 0 auto;
     height: 100%;
     width: auto;
+    
+    
 }
 
 .text-cont{
-    margin-top: 35rem;
+   margin-right: 15rem;
+   margin-top: 30rem;
 }
+
+
 
 
 .link{
@@ -60,7 +73,7 @@ nav img{
 }
 
 .link.active{
-    display: block;
+    display: flex;
 }
 
 .circle-box{
@@ -79,4 +92,16 @@ nav img{
 .small-circle.active img{
     width: 1.2rem;
     
+}
+
+
+
+.arrow{
+    display: block;
+    position: absolute;
+    width: 2.5rem;
+    margin-left: 30rem;
+    margin-top: 3rem;
+
+   
 }
