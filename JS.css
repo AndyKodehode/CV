@@ -42,7 +42,8 @@ nav img{
 
 .header{
     position: absolute;
-    width: 15rem;
+    width: 25rem;
+    
 
 }
 
@@ -52,7 +53,7 @@ nav img{
     width: 7rem;
     padding:0.5rem;
     margin-top: 2rem;
-    background-color: rgb(155, 70, 253);
+    background-color: rgb(91, 38, 151);
     border-style: none;
     box-shadow: 5px 4px 10px #888888;
     color: white;
@@ -65,11 +66,18 @@ nav img{
 }
 
 .h-left{
-    top: 27rem;
-    left: 24rem;
+    top: 37rem;
+    left: 20rem;
     padding-top: 1rem;
     color: rgb(7, 7, 7);
     
+}
+
+.h-right{
+    top: 85rem;
+    left: 55rem;
+    padding-top: 1rem;
+    color: rgb(7, 7, 7);
 }
 
 h2{

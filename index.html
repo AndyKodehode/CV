@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Kumbh+Sans:wght@100;300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=EB+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Kumbh+Sans:wght@100;300;400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
+    <script defer src="script.js"></script>
+    
     <title>Portfolio</title>
 </head>
-<body>
-    <nav>
-        <div class="nav-element">
-            <img src="img/hamburger.svg" alt="">
-        </div>
-    </nav>
 
-        <div class="frontpage-cont">  
+<body id="body">
+    <nav>
+        <div class="menu-wrap">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+            <div class="menu">
+              <div>
+                <div>
+                  <ul>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">CV</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </nav>
+    
+        <div class="frontpage-cont">
             <div class="frontpage-text-cont">
                 <div class="H1-cont">
                     <h1 id="first-name">Anders</h1>
@@ -33,81 +52,89 @@
             </div>
         </div>
 
-            <div id="about-me">
-                <p>Frontend student fra Bergen. Jeg elsker å skape ting, komme med ideer og se resultater
-                </p>
-            </div>
-            
-            <a href="About.html"><button>Mer om meg</button></a>
+        <div id="about-me">
+            <p>Frontend student fra Bergen. Jeg elsker å skape ting, komme med ideer og se resultater
+            </p>
+        </div>
 
-                <div class="design-cont">
-                   <div class="design-img-cont">
-                        <div id="streaming-img-cont">
-                            <img class="from-right" src="img/Colloseum.jpg" alt="">
-                        </div>
+        <a href="About.html"><button>Mer om meg</button></a>
 
-                            <div id="kahoot-img-cont">
-                                <img class="from-left" src="img/Kahoot.jpg" alt="">
-                            </div>
-                    </div>
-
-                            <div class="title-cont design-link  from-right">
-                                <h4>Design</h4>
-                                <a href="design.html"><img  src="img/Arrow 1.svg" alt=""></a>
-                            </div>
-
+        <div class="design-cont">
+            <div class="design-img-cont">
+                <div id="streaming-img-cont">
+                    <img class="" src="img/Colloseum.jpg" alt="">
                 </div>
 
-                    <div id="design-thought">
-                        <p> Jeg håper jeg kan bidra til å finne gode løsninger på problemer brukeren eller kunden står ovenfor
-                        </p>
-                    </div>
+                <div id="kahoot-img-cont">
+                    <img class="" src="img/Kahoot.jpg" alt="">
+                </div>
+            </div>
 
-                        <div class="css-cont">
-                            <img src="img/Drivhuset.jpg" alt="">
-                        </div>
-                        
-                            <div class="title-cont from-left">
-                                <h4>HTML/CSS</h4>
-                                <a href="HC.html"> <img src="img/Arrow 1.svg" alt=""></a> 
-                            </div>
-                        
-
-                                <div id="css-thought">
-                                    <p> Gjennom Kodehodet-kurset har jeg utviklet mine HTML og CSS ferdigheter, jeg syns det er utrolig spennende og har lyst å lære enda mer.
-                                    </p>
-                                </div>
-
-                                        <div class="javascript-cont">
-                                            <div  id="calc-img-cont">
-                                                <img class="from-left" src="img/Frontend Mentor _ Tip calculator app  2.jpg" alt="">
-                                            </div>
-
-                                                
-
-                                                   <div class="title-cont from-right">
-                                                        <h4>Javascript</h4>
-                                                       <a href="JS.html"> <img src="img/Arrow 1.svg" alt=""></a>
-                                                    </div>
-
-                                        </div>
-
-                                            <div id="javascript-thought">
-                                                <p> I begynnelsen så det vanskelig ut, men nå skjønner jeg mer og mer, det er veldig givende når man ser sammenhenger og logikk, brikker som faller på plass
-                                                </p>
-                                            </div>
-
-                    <footer>
-                    
-
-                       <div>
-                                                    
-                       </div>
-
-                     </footer>
+            
+        </div>
 
         
 
- <script src="script.js"></script>
+            <div class="title-cont design-link ">
+                <h4>Design</h4>
+                <a href="design.html"><img src="img/Arrow 1.svg" alt=""></a>
+            </div>
+
+
+            <div id="design-thought">
+                <p> Jeg håper jeg kan bidra til å finne gode løsninger på problemer brukeren eller kunden står ovenfor
+                </p>
+            </div>
+
+            <div class="css-cont">
+                <img src="img/Drivhuset.jpg" alt="">
+            </div>
+
+            <div class="title-cont">
+                <h4>HTML/CSS</h4>
+                <a href="HC.html"> <img src="img/Arrow 1.svg" alt=""></a>
+            </div>
+
+        
+
+        <div id="css-thought">
+            <p> Gjennom Kodehodet-kurset har jeg utviklet mine HTML og CSS ferdigheter, jeg syns det er utrolig spennende og
+                har lyst å lære enda mer.
+            </p>
+        </div>
+
+        <div class="javascript-cont">
+            <div id="calc-img-cont">
+                <img class="" src="img/Frontend Mentor _ Tip calculator app  2.jpg" alt="">
+            </div>
+
+
+
+            <div class="title-cont ">
+                <h4>Javascript</h4>
+                <a href="JS.html"> <img src="img/Arrow 1.svg" alt=""></a>
+            </div>
+
+        </div>
+
+        <div id="javascript-thought">
+            <p> I begynnelsen så det vanskelig ut, men nå skjønner jeg mer og mer, det er veldig givende når man ser
+                sammenhenger og logikk, brikker som faller på plass
+            </p>
+        </div>
+
+    
+    <footer>
+
+
+        <div>
+
+        </div>
+
+    </footer>
+
+
+
 </body>
+
 </html>

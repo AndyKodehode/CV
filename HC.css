@@ -1,4 +1,12 @@
 
+body{
+    margin: 0;
+    
+    
+    
+    
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -9,31 +17,92 @@ nav{
 
 nav img{
     width: 2rem;
+    
 }
 
 .main-cont{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
     margin-top: 10rem;
+    margin-bottom: 10rem;
+    
+   
+       
 }
 
-.text-cont{
+.text-main{
    margin-right: 3rem;
+   margin-left: 5rem;
+   height: 20rem;
+   width: 30rem;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   text-align:justify;
+   
+   
+   
+   
+  
 }
+
+.text-main {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.fade-in{
+    animation: bottom;
+    animation-duration: 2s;
+}
+
+@keyframes bottom{
+    0% {
+        opacity: 0;
+      }
+    100%  {
+        transition: 1s ease-in;
+        opacity: 1;
+      }
+    
+}
+
+
+
 .img-cont{
-    width: 60%;
+    display: none;
+    
 }
+
+
+.img-cont.active{
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
 
 .img-cont img{
     width: 80%
 }
 
-h1{
-    display: none;
+.css-text{
+    margin-bottom: 4rem;
+
+}
+
+.css-text h1{
     font-size: 4rem;
-    margin-right: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    
+   
+    
 }
-h1.active{
-    display: block;
-}
+
+
+
+
+
+
+
