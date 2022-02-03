@@ -27,13 +27,20 @@ nav img{
 #box1{
     grid-column: 1;
     grid-row: 1;
+    margin-left: 3rem;
 }
 
 #box2{
-    margin-top: 3rem;
     grid-column: 2;
     grid-row: 1;
+    width: 40rem;
+    
 }
+
+
+
+
+
 
 #box3{
     grid-column: 1;
@@ -77,10 +84,11 @@ nav img{
 
 
 h1{
-    margin-left: 20rem;
+    text-align: center;
     margin-bottom: 5rem;
     font-size: 50px;
     margin-top: 2rem;
+    margin-right: 2rem;
 }
 
 h3{
@@ -92,7 +100,7 @@ p{
     color: rgb(80, 79, 79);
     line-height: 1.5rem;
     width: 75%;
-    margin-left:6rem;
+    margin-left:5rem;
 
 }
 

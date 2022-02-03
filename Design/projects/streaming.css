@@ -187,7 +187,22 @@ h2{
     
 }
 
+.prototype-text-cont a{
+    margin-left: 6rem;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.prototype-text-cont a:hover{
+    color: black;
+}
+
+.prototype-text-cont p{
+    margin-bottom: 3rem;
+}
+
 .prototype-text-cont h3{
     margin-left: 6rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
