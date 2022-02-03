@@ -169,10 +169,12 @@ nav{
 .frontpage-cont{
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
-    margin-top: 2rem;
-    margin-left: 5rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
 }
+
+
 
 .H1-cont{
     margin-top: 4rem;
@@ -368,10 +370,11 @@ button:hover{
 
 .css-cont{
     margin-top: 15rem;
+    margin-left: 15rem;
 }
 
 .css-cont img{
-    width: 100%;
+    width: 85%;
     
 }
 
