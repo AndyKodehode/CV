@@ -1,0 +1,251 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10rem;
+}
+
+nav{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.arrow{
+  width: 2rem;
+  margin-top: 1rem;
+}
+
+
+
+.menu-wrap{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 5px;
+    margin-top: 1.5rem;
+  
+}
+
+.menu-wrap .hamburger > div {
+    position: absolute;
+    width: 2rem;
+    height: 2px;
+    background: rgb(223, 57, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    z-index: 1;
+    right: 5px;
+    margin-right: 1.5rem;
+    
+    
+    
+    
+  }
+
+.menu-wrap .menu{
+    visibility: hidden;
+    
+}
+
+.menu-wrap .toggler {
+    position: absolute;
+    top: -25px;
+    right: -20;
+    z-index: 4;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+
+}
+  
+
+
+
+.menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+   /* background-image: linear-gradient(transparent,rgba(66, 162, 181, 0.288), transparent );
+  /*  background-color: rgba(63, 137, 197, 0.288);*/
+    border-left-style: solid;
+    border-color: rgba(63, 137, 197, 0.541);
+    animation-name: color;
+    animation-duration: 0.5s;
+    position: absolute;
+    height: 40rem;
+    width: 8rem;
+    padding: 10px;
+    left:-90px;
+    z-index: 3;
+    margin-top: 5rem;
+    
+  }
+  
+  .menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: 1s;
+  }
+
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.menu-wrap .hamburger > div::after {
+  top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/*.menu-wrap.active{
+    background-color: turquoise;
+    animation-name: color;
+    animation-duration: 0.5s;
+}*/
+
+@keyframes color{
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+        
+        
+
+      }
+    100%  {
+        opacity: 1;
+        transform: translateX(0);
+        
+        
+      }
+    
+    }
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    font-size: 23px;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color:rgb(83, 83, 83);
+     
+}
+
+.menu > div{
+    display: flex;
+    justify-content: center;
+    margin-right: 1.7rem;
+}
+
+
+.top-section{
+    padding: 2rem;
+    max-width: 100% ;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+
+#box1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#box2{
+    margin-top: 3rem;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#box3{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#box3 img{
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.list-cont{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.list-cont img{
+    width: 2rem;
+}
+
+
+
+
+h1{
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+    font-size: 50px;
+    margin-top: 2rem;
+}
+
+h3{
+    margin-left: 2rem;
+
+}
+
+p{
+    color: rgb(80, 79, 79);
+    line-height: 1.5rem;
+    width: 75%;
+    margin-left:6rem;
+
+}
+
+ul{
+    width: 70%;
+    margin-left: 5rem;
+}
+
+li{
+    color: rgb(80, 79, 79);
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#box2 a{
+    margin-left: 6rem;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 18px;
+}
