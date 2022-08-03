@@ -1,9 +1,15 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+    width: 95%;
 
 
 }
@@ -24,8 +30,8 @@ nav img{
 
 
 .img-cont{
-    width: 500px;
-    height: 500px;
+    width: 30rem;
+    height: 30rem;
     position: relative;
     overflow:hidden;
     margin-top: 5rem;
@@ -53,7 +59,7 @@ nav img{
 .single-img-div.active{
     display: inline;
     height: 100%;
-    width: auto;
+    width: 100%;
     animation: slide-out;
     animation-duration: 3s;
       
@@ -74,8 +80,8 @@ nav img{
     }
 
 .text-cont{
-   margin-right: 15rem;
-   margin-top: 30rem;
+   margin-right: 20rem;
+   margin-top: 32rem;
    
 }
 
@@ -118,7 +124,7 @@ nav img{
     
     }
 
-.circle-box{
+/*.circle-box{
     display: flex;
     margin-top: 3rem;
     justify-content: center;
@@ -134,7 +140,7 @@ nav img{
 .small-circle.active img{
     width: 1.2rem;
     
-}
+}*/
 
 
 
@@ -151,3 +157,89 @@ nav img{
 a{
     text-decoration: none;
 }
+
+@media(max-width: 1100px){
+
+   
+
+   body{
+       width: 1000px;
+       overflow-x: hidden;
+   }
+
+   nav{
+       width: 95%;
+   }
+
+   .main-cont{
+       width: 100%;
+   }
+
+   .single-img-div{
+    display: none;
+    width: 25rem;
+    height: 25rem;
+       
+}
+
+.single-img-div img{
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    
+}
+
+.single-img-div.active{
+    display: inline;
+    height: 25rem;
+    width: 25rem;
+    animation: slide-out;
+    animation-duration: 3s;
+}
+
+.img-cont{
+        width: 25rem;
+        height: 25rem;
+        position: relative;
+        overflow:hidden;
+        margin-top: 5rem;
+        margin-right: 5rem;
+        border-radius: 50%;
+        filter: drop-shadow(5px 5px 5px #5e5d5d);
+      
+    
+    }
+
+
+    .text-cont{
+        margin-right: 5rem;
+        margin-top: 30rem;
+        
+     }
+
+}
+
+
+@media(max-width: 800px){
+
+    body{
+        max-width: 800px;
+    }
+
+    .main-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-cont{
+        margin-top: 3rem;
+    }
+
+    nav{
+        width: 80%;
+    }
+
+}
+
