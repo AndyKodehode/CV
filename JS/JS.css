@@ -24,12 +24,20 @@ nav img{
 
 
 .img-cont{
-    width: 500px;
+  /*  width: 500px;
     height: 500px;
     position: relative;
     overflow:hidden;
     margin-top: 5rem;
     border-radius: 50%;
+    filter: drop-shadow(5px 5px 5px #5e5d5d); */
+
+    width: 35rem;
+    height: 30rem;
+    position: relative;
+    overflow:hidden;
+    margin-top: 5rem;
+   /* border-radius: 50%; */
     filter: drop-shadow(5px 5px 5px #5e5d5d);
     
 
@@ -44,7 +52,7 @@ nav img{
 .single-img-div img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     
 }
 

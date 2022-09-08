@@ -18,30 +18,57 @@ nav img{
 
 
 .top-section{
-    padding: 2rem;
+    margin-top: 5rem;
+    padding: 1rem;
     max-width: 100% ;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-template-rows: 0.2fr 0.2fr;
+    z-index: 2;
+  
+
+}
+
+.top-section-background{
+
+    height: 35rem;
+    background-color:  #6c6ea8;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 15rem;
+    
+
+
 }
 
 #box1{
     grid-column: 1;
     grid-row: 1;
+    z-index: 2;
 }
 
 #box2{
-    margin-top: 3rem;
     grid-column: 2;
     grid-row: 1;
+    margin-top: 20rem;
+    z-index: 2;
+}
+
+.info-p{
+    color: white ;
+
+    /*rgb(83, 83, 83)*/
 }
 
 #box3{
-    grid-column: 1;
-    grid-row: 2;
+   /* grid-column: 1;
+    grid-row: 2;*/
+    margin-top: 10rem;
+    margin-bottom: 20rem;
 }
 
-#box3 img{
+#box1 img{
     width: 80%;
     margin-top: 3rem;
     margin-left: 5rem;
@@ -60,10 +87,11 @@ nav img{
 
 
 h1{
-    margin-left: 20rem;
+    margin-left: 11.5rem;
     margin-bottom: 5rem;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 2rem;
+    color: #2e2f4b;
 }
 
 h3{
@@ -103,12 +131,13 @@ h2{
     display: flex;
     margin-bottom: 20rem;
     margin-left: 10rem;
+   
 }
 
 .sketch-img-cont img{
     position: absolute;
     width: 20rem;
-    
+   
     
 }
 
@@ -150,6 +179,9 @@ h2{
 .wireframe-cont{
     display:flex;
     margin-top: 50rem;
+    background-color:  #6c6ea8;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .wireframe-img-cont img{  
@@ -165,6 +197,11 @@ h2{
 .wireframe-text-cont h3{
     margin-left: 6rem;
     margin-bottom: 5rem;
+    color: white;
+}
+
+.wireframe-text-cont p{
+  color: white;
 }
 
 /*PROTOTYPE-SECTION*/

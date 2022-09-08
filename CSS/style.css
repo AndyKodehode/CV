@@ -235,7 +235,7 @@ nav{
     display: flex;
     flex-direction: column;
     margin-top: 15rem;
-    margin-bottom: 2rem;
+    margin-bottom: 50rem;
 }
 
 #streaming-img-cont img{
@@ -250,7 +250,7 @@ nav{
 #kahoot-img-cont img{
     display: block;
     
-    width: 50%;
+    width: 70%;
     
     margin-left: 5rem;
     filter: drop-shadow(2px 3px 3px #d6d6e0);
@@ -265,7 +265,8 @@ nav{
 
 #kahoot-img-cont{
     position: absolute;
-    top: 90rem;
+    top: 80rem;
+    left: 15rem
     
     
 }
@@ -389,11 +390,11 @@ button:hover{
 
 .css-cont{
     margin-top: 15rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
 }
 
 .css-cont img{
-    width: 90%;
+    width: 70%;
     
 }
 
