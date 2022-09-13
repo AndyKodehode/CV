@@ -179,19 +179,35 @@ nav{
 }
 
 #box1{
-    grid-column: 1;
-    grid-row: 1;
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 1;
 }
+
+#box1 li, h3{
+
+    color: white
+    
+}
+
+
 
 #box2{
     margin-top: 3rem;
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 1;
+}
+
+#box2 p{
+
+    color: white;
 }
 
 #box3{
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
+    z-index: 1;
 }
 
 #box3 img{
@@ -213,16 +229,14 @@ nav{
 
 
 h1{
-    margin-left: 20rem;
-    margin-bottom: 5rem;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
     font-size: 50px;
     margin-top: 2rem;
+    color: #2e2f4b;
 }
 
-h3{
-    margin-left: 2rem;
 
-}
 
 p{
     color: rgb(80, 79, 79);
@@ -245,7 +259,21 @@ li{
 
 #box2 a{
     margin-left: 6rem;
-    color: rgb(78, 78, 78);
+    color: white;
     font-weight: bold;
     font-size: 18px;
+}
+
+
+.top-section-background{
+
+    height: 35rem;
+    background-color:  #6c6ea8;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 15rem;
+    
+
+
 }

@@ -7,6 +7,7 @@ body{
   margin-left: 2rem;
   overflow-x: hidden;
   
+  
 }
 
 p{
@@ -27,7 +28,7 @@ nav{
 
 
 .menu-wrap{
-    margin-right: 0.5rem;
+    margin-right: 1.5rem;
     display: flex;
     justify-content: end;
     position: absolute;
@@ -43,8 +44,8 @@ nav{
     justify-content: center;
     transition: all 0.4s ease;
     z-index: 1;
-    right: 10px;
-    
+    right: 20px;
+    top: 20px
     
     
     
@@ -57,7 +58,7 @@ nav{
 
 .menu-wrap .toggler {
     position: absolute;
-    top: -25px;
+    top: -25;
     right: -20;
     z-index: 4;
     cursor: pointer;
@@ -152,6 +153,8 @@ nav{
 .menu li{
     font-size: 23px;
     margin-bottom: 1rem;
+    margin-right: 1.75rem;
+    
     
     
 }
@@ -197,6 +200,7 @@ nav{
     font-size: 110px;
     margin-top: 0px;
     margin-bottom: 0px;
+    background-clip: inherit;
     background: -webkit-linear-gradient(rgba(227, 236, 250, 0.918),#8496d1bd, rgba(97, 24, 146, 0.822), rgb(19, 17, 24));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -235,22 +239,23 @@ nav{
     display: flex;
     flex-direction: column;
     margin-top: 15rem;
-    margin-bottom: 50rem;
+    margin-bottom: 30rem;
 }
 
-#streaming-img-cont img{
+/*#streaming-img-cont img{
     position:relative;
     width: 70%;
     margin-left: 20rem;
    
 
-}
+}*/
 
 
 #kahoot-img-cont img{
     display: block;
     
-    width: 70%;
+    width: 100%;
+    height: 100%;
     
     margin-left: 5rem;
     filter: drop-shadow(2px 3px 3px #d6d6e0);
@@ -266,8 +271,9 @@ nav{
 #kahoot-img-cont{
     position: absolute;
     top: 80rem;
-    left: 15rem
-    
+    left: 15rem;
+    width: 20rem
+  
     
 }
 
@@ -420,7 +426,8 @@ button:hover{
 }
 
 .design-link{
-    margin-top: 10rem;
+    margin-top: 30rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -450,19 +457,18 @@ button:hover{
     .frontpage-cont{
         display: flex;
         justify-content: center;
-        margin-bottom: 10rem;
+        margin-bottom: 1rem;
         margin-top: 5rem;
         margin-left: 3rem;
       
     }
 
-    #kahoot-img-cont{
-        display: none;
-    }
 
-    #streaming-img-cont img {
-        width: 35rem;
-        margin-left: 5rem;
+   #kahoot-img-cont img {
+        width: 80%;
+        height: 80%;
+        margin-right: 10rem;
+       
        
     
     } 
@@ -534,24 +540,44 @@ button:hover{
         visibility: visible;
        /* background-image: linear-gradient(transparent,rgba(66, 162, 181, 0.288), transparent );
       /*  background-color: rgba(63, 137, 197, 0.288);*/
-        border-left-style: solid;
-        background-color: blueviolet;
+      /*  border-left-style: solid; */
+      /*  background-color: blueviolet; */
         animation-name: color;
         animation-duration: 0.5s;
         position: absolute;
         height: 40rem;
-        width: 8rem;
+        width: 4rem;
         padding: 10px;
         left:-90px;
         z-index: 3;
         margin-top: 5rem;
+    
         
       }
+
+
+      .menu li{
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        
+    
+    }
+
+    .design-link{
+
+        margin-top: 45rem;
+        margin-bottom: 0rem;
+        
+     }
+        
+        
+    }
 
     
   
 
-}
+
 
 
 @media(max-width: 600px){
@@ -636,12 +662,7 @@ button:hover{
         padding-left: 2rem;
     }
 
-    #streaming-img-cont img {
-        width: 25rem;
-        margin-left: 0px;
-       
-    
-    } 
+ 
 
 
     #about-me{
@@ -668,7 +689,20 @@ button:hover{
         margin-top: 7rem;
     }
 
-   
+    
+
+
+    
+    #kahoot-img-cont img {
+        width: 80%;
+        height: 80%;
+        margin-bottom: 50rem;
+     }
+
+
+  
+
+
 
 }
 
@@ -683,4 +717,22 @@ button:hover{
         margin-right: 2rem;
         margin-left: 0.2rem;
     }
+
+   #kahoot-img-cont {
+        width: 15rem;
+        height: 30rem;
+        left: 10rem;
+        top: 60rem;
+       
+     
+       
+       }
+
+    .design-link{
+
+        margin-top: 30rem;
+        margin-bottom: 0rem;
+        
+     }
 }
+
