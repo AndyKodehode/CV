@@ -250,3 +250,37 @@ a{
  
  }
 
+ @media(max-width: 600px){
+
+    .img-cont{
+        margin-left: 4rem;
+    }
+
+    .link{
+        width: 15rem;
+        display: none;
+        border-bottom-style: solid;
+        border-color: #5f46ffbe;
+        cursor: pointer;
+       
+    
+    }
+    
+    .link h3{
+        padding-left: 1rem;
+        font-size: 22px;
+        color: rgb(44, 44, 44);
+    }
+
+    .arrow{
+        display: block;
+        position: absolute;
+        width: 1.7rem;
+        margin-left: 17rem;
+        margin-top: 3rem;
+    
+       
+    }
+
+}
+
