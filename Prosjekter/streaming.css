@@ -243,3 +243,95 @@ h2{
     margin-left: 6rem;
     margin-bottom: 3rem;
 }
+
+
+@media(max-width: 1000px){
+    .top-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #box1 {
+        width: 60%;
+        margin-top: 3rem;
+    }
+
+    #box1 img{
+        margin-left: 1.5rem;
+    }
+
+    .info-p{
+        
+        color: white;
+        /*color: rgb(83, 83, 83)*/
+      
+    }
+
+    
+
+    h1{
+        margin-left: 18rem;
+        margin-bottom: 1rem;
+        font-size: 40px;
+        margin-top: 2rem;
+        color: #2e2f4b;
+    }
+
+    .top-section-background{
+
+        height: 50rem;
+        background-color:  #6c6ea8;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        margin-top: 15rem;
+       
+        
+    
+    
+    }
+
+    #box2{
+
+        margin-top: 5rem;
+    }
+
+    .prosess-section{
+       
+        margin-top: 20rem;
+    }
+
+    .sketch-cont{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 50rem;
+    }
+
+    .sketch-text-cont{
+        margin-left: 10rem;
+        padding-right: 3rem;
+        margin-top: 50rem;
+    }
+
+    .sketch-text-cont p{
+        width: 20rem;
+    }
+
+    .wireframe-cont{
+        margin-top: 5rem;
+    
+    }
+
+
+    .prototype-text-cont a{
+       position: absolute;
+       left: 2rem;
+    }
+
+
+
+}
