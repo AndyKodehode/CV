@@ -148,9 +148,32 @@ nav{
     margin-right: 32rem;
    }
 
+   .main-cont{
+
+    flex-direction: column-reverse;
+   }
+
+   .main-cont H1{
+    margin-top: 5rem;
+}
+
+   .text-cont p{
+    margin-top: 1rem;
+}
+
+
+.img-cont img{
+
+    margin-left: 4rem;
+}
+
 }
 
 @media(max-width: 600px){
+
+    .main-cont{
+        flex-direction: column-reverse;
+    }
 
     .img-cont img{
 
@@ -160,6 +183,14 @@ nav{
     
     .fritid-cont{
         display: none;
+    }
+
+    .main-cont H1{
+        margin-top: 5rem;
+    }
+
+    .text-cont p{
+        margin-top: 1rem;
     }
 }
 
