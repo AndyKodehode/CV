@@ -2,6 +2,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     padding-bottom: 10rem;
+    width:100%;
 }
 
 nav{
@@ -20,7 +21,7 @@ nav img{
 .top-section{
     margin-top: 5rem;
     padding: 1rem;
-    max-width: 100% ;
+    width: 100% ;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr ;
     grid-template-rows: 0.2fr 0.2fr;
@@ -36,7 +37,7 @@ nav img{
     width: 100%;
     position: absolute;
     z-index: 0;
-    margin-top: 15rem;
+    margin-top: 20rem;
     
 
 
@@ -57,6 +58,7 @@ nav img{
 
 .info-p{
     color: white ;
+    margin-top: 2rem;
 
     /*rgb(83, 83, 83)*/
 }
@@ -87,9 +89,9 @@ nav img{
 
 
 h1{
-    margin-left: 12rem;
+    margin-left: 10rem;
     margin-bottom: 4rem;
-    font-size: 50px;
+    font-size: 3.5vw;
     margin-top: 2rem;
     color: #2e2f4b;
 }
@@ -245,7 +247,7 @@ h2{
 }
 
 
-@media(max-width: 1000px){
+@media(max-width: 1200px){
     .top-section{
         display: flex;
         flex-direction: column;
@@ -272,9 +274,9 @@ h2{
     
 
     h1{
-        margin-left: 18rem;
-        margin-bottom: 1rem;
-        font-size: 40px;
+        margin-left: 6rem;
+        margin-bottom: 3rem;
+        font-size: 4vw;
         margin-top: 2rem;
         color: #2e2f4b;
     }
@@ -286,7 +288,7 @@ h2{
         width: 100%;
         position: absolute;
         z-index: 0;
-        margin-top: 15rem;
+        margin-top: 30rem;
        
         
     
@@ -331,6 +333,105 @@ h2{
        position: absolute;
        left: 2rem;
     }
+
+
+
+}
+
+@media(max-width: 800px){
+
+    body{
+        max-width: 800px;
+    }
+
+    
+    h1{
+        margin-left: 7.5rem;
+        margin-bottom: 3rem;
+        font-size: 5.5vw;
+        margin-top: 2rem;
+        color: #2e2f4b;
+    }
+
+    #box1{
+        width: 100%;
+    }
+
+    p{
+        color: rgb(80, 79, 79);
+        line-height: 1.5rem;
+        width: 75%;
+        margin-left:2rem;
+    
+    }
+
+    .prosess-section{
+        margin-top: 25rem;
+    }
+
+    .sketch-img-cont{
+
+        width: 70%;
+        margin-right: 18rem;
+    }
+
+    .sketch-img-cont img{
+
+        width: 30%;
+    }
+
+    #box1 img{
+        width: 60%;
+        margin-left: 5rem;
+        
+    }
+
+    .sketch-text-cont{
+        margin-left: 10rem;
+        padding-right: 3rem;
+        margin-top: 37rem;
+    }
+
+    
+    .wireframe-cont{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    
+.wireframe-text-cont{
+    margin-left: 5rem;
+    background-color:  #6c6ea8;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.wireframe-img-cont{
+
+    margin-left: 5rem;
+}
+
+
+.prototype-cont{
+    display:flex;
+    flex-direction: column-reverse;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+}
+
+.prototype-img-cont{
+
+    width: 80%;
+}
+
+.prototype-text-cont a{
+
+    margin-top: 20rem;
+   
+}
+
 
 
 
