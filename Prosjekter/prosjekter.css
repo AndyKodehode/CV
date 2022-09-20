@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -33,15 +34,46 @@ nav img{
 
 
 .img-cont{
+   
+    display: flex;
+    flex-direction: row;
+   
+
+}
+
+.img-flex-div{
     width: 35rem;
     height: 30rem;
     position: relative;
-    overflow:hidden;
+/*  overflow:hidden;*/
     margin-top: 5rem;
    /* border-radius: 50%; */
     filter: drop-shadow(5px 5px 5px #5e5d5d);
-    
+    display: flex;
+    flex-direction: column;
+}
 
+.circle-arrow-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.circle-arrow-div h4{
+    margin-left: 3rem;
+    font-weight: 400;
+}
+
+/*.circle-arrow-down img{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}*/
+
+
+
+.circle-arrow-up img{
+    margin-top: 5rem;
+    margin-left: 3rem;
 }
 
 .single-img-div{
@@ -71,11 +103,11 @@ nav img{
 
 @keyframes slide-out {
     0% {
-        transform: translateX(50%);
-        opacity: 0.5;
+        transform: translatey(50%);
+        opacity: 0.4;
       }
     100%  {
-        transform: translateX(0);
+        transform: translatey(0);
         transition: 0.5s ease-in;
         opacity: 1;
       }
@@ -101,9 +133,10 @@ nav img{
 
 }
 
-.link h3{
+.link h4{
     padding-left: 1rem;
     font-size: 25px;
+    font-weight: 400;
     color: rgb(44, 44, 44);
 }
 
@@ -118,11 +151,11 @@ nav img{
 
 @keyframes slide-left {
     0% {
-        transform: translateX(-50%);
+        transform: translatex(-50%);
         opacity: 0;
       }
     100%  {
-        transform: translateX(0);
+        transform: translatex(0);
         transition: 1s ease-in;
         opacity: 1;
       }
