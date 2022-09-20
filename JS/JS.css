@@ -1,9 +1,16 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
 
 nav{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem;
+    
 
 
 }
@@ -32,15 +39,41 @@ nav img{
     border-radius: 50%;
     filter: drop-shadow(5px 5px 5px #5e5d5d); */
 
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.img-flex-div{
     width: 35rem;
     height: 30rem;
     position: relative;
-    overflow:hidden;
+/*  overflow:hidden;*/
     margin-top: 5rem;
    /* border-radius: 50%; */
     filter: drop-shadow(5px 5px 5px #5e5d5d);
-    
+    display: flex;
+    flex-direction: column;
+}
 
+
+.circle-arrow-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.circle-arrow-div h4{
+    margin-left: 3rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.circle-arrow-up img{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    cursor: pointer;
 }
 
 .single-img-div{
@@ -70,11 +103,11 @@ nav img{
 
 @keyframes slide-out {
     0% {
-        transform: translateX(50%);
+        transform: translatey(-50%);
         opacity: 0.5;
       }
     100%  {
-        transform: translateX(0);
+        transform: translatey(0);
         transition: 0.5s ease-in;
         opacity: 1;
       }
@@ -102,6 +135,7 @@ nav img{
 .link h3{
     padding-left: 1rem;
     font-size: 25px;
+    font-weight: 400;
     color: rgb(44, 44, 44);
 }
 

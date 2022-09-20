@@ -156,14 +156,14 @@ h2{
 }
 
 #skisse3{
-    z-index: 0;
-    margin-top: 5rem;
+    z-index: 4;
+    margin-top: 15rem;
 }
 
 #skisse4{
-    z-index: 1;
-    margin-left: 10rem;
-    margin-bottom: 50rem;
+    z-index: 0;
+    margin-left: 5rem;
+    margin-bottom: 30rem;
 }
 
 .sketch-text-cont{

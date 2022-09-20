@@ -62,6 +62,7 @@ nav img{
 .circle-arrow-div h4{
     margin-left: 3rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 /*.circle-arrow-down img{
@@ -74,6 +75,7 @@ nav img{
 .circle-arrow-up img{
     margin-top: 5rem;
     margin-left: 3rem;
+    cursor: pointer;
 }
 
 .single-img-div{
