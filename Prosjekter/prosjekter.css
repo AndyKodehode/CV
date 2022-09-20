@@ -103,7 +103,7 @@ nav img{
 
 @keyframes slide-out {
     0% {
-        transform: translatey(50%);
+        transform: translatey(-50%);
         opacity: 0.4;
       }
     100%  {
