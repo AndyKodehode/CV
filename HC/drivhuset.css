@@ -229,9 +229,9 @@ nav{
 
 
 h1{
-    margin-left: 10rem;
-    margin-bottom: 4rem;
-    font-size: 50px;
+    margin-left: 8.5rem;
+    margin-bottom: 2rem;
+    font-size: 3.5vw;
     margin-top: 2rem;
     color: #2e2f4b;
 }
@@ -276,4 +276,88 @@ li{
     
 
 
+}
+
+
+@media(max-width: 800px){
+    .top-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #box1 {
+        width: 40%;
+        margin-top: 3rem;
+    }
+
+   
+
+    #box2 p{
+        
+         color: white;
+        /*color: rgb(83, 83, 83);*/
+      
+    }
+
+    
+
+    h1{
+        margin-left: 13rem;
+        margin-bottom: 3rem;
+        font-size: 5vw;
+        margin-top: 2rem;
+        color: #2e2f4b;
+    }
+
+    .top-section-background{
+
+        height: 35rem;
+        background-color:  #6c6ea8;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        margin-top: 55rem;
+        padding-bottom: 2rem;
+       
+        
+    
+    
+    }
+
+    #box1 {
+        margin-right: 27rem;
+    }
+
+    #box1 ul{
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width: 700px){
+
+    p{
+        margin-left: 1.5rem;
+        width: 90%;
+    }
+
+    #box3 img{
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    h1{
+        font-size: 7vw ;
+        margin-left:6rem;
+    }
+
+    #box1 li{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+  
 }
