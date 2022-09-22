@@ -375,7 +375,7 @@ button:hover{
 #design-thought{
     margin-left: 63.5rem;
     margin-bottom: 5rem;
-    margin-top: 10rem;
+    margin-top: 15rem;
     width: 20rem;
     padding: 2rem;
     border-bottom-style: solid;
@@ -737,7 +737,16 @@ button:hover{
 @media(max-width: 600px){
 
     body{
-        margin-right: 3rem;
+        margin-right: 5rem;
+      
+        overflow-x: hidden;
+    }
+
+    nav{
+
+        text-align: right;
+
+
     }
 
     #about-me{
@@ -763,9 +772,33 @@ button:hover{
         
      }
 
+     .menu ul{
+        margin-left: 5rem;
+        margin-right: 5rem;
+     }
+
    
 
 
    
 }
 
+
+@media( max-width: 500px){
+    .menu ul{
+        margin-left: 15rem;
+        margin-right: 0rem;
+     }
+
+     .menu li{
+        margin-left: 1rem;
+     }
+
+     .middle-div{
+
+      margin-right: 5rem;
+      width: 80%;
+
+}
+
+}
