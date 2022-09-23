@@ -357,7 +357,7 @@ a{
         margin-left: 2rem;
         /*overflow: hidden;*/
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: initial;
     }
 
@@ -397,7 +397,8 @@ a{
 
     .circle-arrow-up img{
         margin-top: 0rem;
-        margin-left: 3rem;
+        margin-left: 11rem;
+        margin-bottom: 3rem;
         cursor: pointer;
     }
 
@@ -418,6 +419,7 @@ a{
 
     #mobil{
         margin-left: 7rem;
+        margin-bottom: 3rem;
     }
 
   
