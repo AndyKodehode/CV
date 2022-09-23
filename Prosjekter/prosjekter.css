@@ -371,6 +371,7 @@ a{
         border-bottom-style: solid;
         border-color: #5f46ffbe;
         cursor: pointer;
+        margin-top: 2rem;
        
     
     }
@@ -402,7 +403,6 @@ a{
     .circle-arrow-up img{
         margin-top: 0rem;
         margin-left: 12rem;
-        margin-bottom: 1rem;
         cursor: pointer;
     }
 
@@ -413,7 +413,7 @@ a{
     }
 
     .circle-arrow-div{
-        margin-top: 2rem;
+        margin-top: 1rem;
         z-index: 5;
     }
 
