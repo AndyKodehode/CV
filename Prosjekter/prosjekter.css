@@ -344,7 +344,9 @@ a{
 @media(max-width: 600px){
 
     body{
-        padding: 1rem
+        padding: 1rem;
+        max-width: 600px;
+        height: ;
     }
 
     .main-cont{
@@ -355,12 +357,12 @@ a{
 
     .img-cont{
         margin-left: 2rem;
-        /*overflow: hidden;*/
         display: flex;
         flex-direction: column-reverse;
         align-items: initial;
         justify-content: center;
         margin-bottom: 1rem;
+        margin-top: 4rem;
     }
 
     .link{
@@ -400,18 +402,18 @@ a{
     .circle-arrow-up img{
         margin-top: 0rem;
         margin-left: 12rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         cursor: pointer;
     }
 
     .img-flex-div{
         margin-top: 0rem;
-        height: 10rem;
+        height: 40rem;
      
     }
 
     .circle-arrow-div{
-        margin-top: 4rem;
+        margin-top: 2rem;
         z-index: 5;
     }
 
@@ -421,9 +423,14 @@ a{
 
     #mobil{
         margin-left: 1rem;
-        padding-bottom: 15rem;
+        padding-bottom: 5rem;
         height: 20rem;
+       
         
+    }
+
+    #mobil img{
+        margin-top: 2rem;
     }
 
   
@@ -431,7 +438,7 @@ a{
     
 
    #fontenehuset-link{
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
   
