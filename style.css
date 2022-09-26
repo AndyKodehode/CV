@@ -815,8 +815,12 @@ button{
 
 .frontpage-text-cont{
 
-    margin-left: 7rem;
+    margin-left: 5rem;
 
+}
+
+#about-me{
+    margin-left: 5rem;
 }
 
 }
