@@ -785,6 +785,11 @@ button:hover{
 
 
 @media( max-width: 500px){
+
+    body{
+        max-width: 500px;
+    }
+
     .menu ul{
         margin-left: 15rem;
         margin-right: 0rem;
