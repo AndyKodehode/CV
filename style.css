@@ -784,16 +784,19 @@ button:hover{
 }
 
 
-@media( max-width: 500px){
+@media( max-width: 400px){
 
     body{
-        max-width: 500px;
+        width: 350px;
+        overflow: visible;
     }
 
     .menu ul{
         margin-left: 15rem;
         margin-right: 0rem;
      }
+
+    
 
      .menu li{
         margin-left: 1rem;
@@ -812,7 +815,7 @@ button{
 
 .frontpage-text-cont{
 
-    margin-left: 5rem;
+    margin-left: 3rem;
 
 }
 
