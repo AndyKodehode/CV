@@ -450,14 +450,18 @@ h2{
 
 @media(max-width: 500px){
 
+    body{
+        width: 400;
+    }
+
     #box1 img{
         width: 40%;
-        margin-left: 8rem;
+        margin-left: 7rem;
         
     }
 
     h1{
-        margin-left: 8rem;
+        margin-left: 7rem;
         margin-bottom: 3rem;
         font-size: 5.5vw;
         margin-top: 2rem;
