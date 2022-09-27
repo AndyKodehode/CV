@@ -452,6 +452,7 @@ h2{
 
     body{
         width: 100%;
+        overflow: hidden;
     }
 
     #box1 img{
