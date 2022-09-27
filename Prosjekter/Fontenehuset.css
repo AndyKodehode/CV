@@ -482,5 +482,16 @@ h2{
         padding-right: 0rem;
         margin-top: 50rem;
     }
+
+    .sketch-img-cont{
+
+        width:100%;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+
+    .sketch-cont{
+        margin-left: 0rem;
+    }
 }
 
