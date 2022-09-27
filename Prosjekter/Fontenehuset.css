@@ -448,7 +448,7 @@ h2{
 
 }
 
-@media(max-width: 500px){
+@media mobile {
 
     body{
         width: 100%;
