@@ -271,9 +271,9 @@ h2{
         margin-top: 3rem;
     }
 
-    #box1 img{
+    /*#box1 img{
         margin-left: 1.5rem;
-    }
+    }*/
 
     .info-p{
         
@@ -470,6 +470,16 @@ h2{
 
    .prototype-cont h3, .wireframe-cont h3{
         margin-left: 3rem;
+    }
+
+    .top-section{
+        padding: 0rem;
+    }
+
+    .sketch-text-cont{
+        margin-left: 10rem;
+        padding-right: 0rem;
+        margin-top: 50rem;
     }
 }
 
