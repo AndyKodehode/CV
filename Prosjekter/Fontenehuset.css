@@ -448,11 +448,12 @@ h2{
 
 }
 
-@media mobile {
+@media (max-width: 500px) {
 
     body{
-        width: 100%;
+        min-width: 100%;
         overflow-x: hidden;
+        margin: 0;
     }
 
     #box1 img{
@@ -475,6 +476,10 @@ h2{
 
     .top-section{
         padding: 0rem;
+    }
+
+    .top-section-background{
+        width: 100%;
     }
 
     .sketch-text-cont{
