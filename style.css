@@ -258,7 +258,7 @@ a{
     height: 100%;
     
     margin-left: 5rem;
-    filter: drop-shadow(3px 4px 4px #aeaeb5);
+   
     
    
 }
@@ -272,7 +272,8 @@ a{
     position: absolute;
     top: 80rem;
     left: 15rem;
-    width: 20rem
+    width: 20rem;
+    filter: drop-shadow(3px 4px 4px #aeaeb5);
   
     
 }
