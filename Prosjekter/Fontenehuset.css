@@ -1,22 +1,143 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    width: 400px;
+    margin: 0;
+    
    
 }
 
 nav{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 1.5rem;
 
 
 }
 
+
+.top-section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
 nav img{
     width: 2rem;
 }
 
+#box1{
+    width: 50%;
+    z-index: 0;
+   
+   
+}
 
+#box2{
+    z-index: 1;
+}
+
+#box1 img{
+    width: 80%
+}
+
+.top-section-background{
+
+    height: 35rem;
+    background-color:  #6c6ea8;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 15rem;
+    
+
+
+}
+
+
+.sketch-img-cont img{
+    position: absolute;
+    width: 10rem;
+    top: 60rem;
+   
+    
+}
+
+#skisse1{
+    z-index: 4;
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+
+#skisse2{
+    z-index: 3;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    bottom:30;
+}
+
+#skisse3{
+    z-index: 4;
+    margin-top: 10rem;
+}
+
+#skisse4{
+    z-index: 0;
+    margin-left: 5rem;
+    margin-bottom: 30rem;
+}
+
+.sketch-text-cont{
+    margin-left: 1rem;
+    padding-right: 3rem;
+    margin-top: 40rem;
+}
+
+
+.wireframe-cont{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+   
+   
+}
+
+
+.wireframe-img-cont {  
+    width: 90%;
+    z-index: 4;
+}
+
+.wireframe-img-cont img{
+    width: 80%;
+}
+
+.wireframe-text-cont{
+
+    z-index: 3;
+}
+
+.prototype-img-cont img{  
+    width: 90%;
+    margin-left: 5rem;
+}
+
+.prototype-cont{
+    margin-top: 10rem;
+}
+
+
+/*
 .top-section{
     margin-top: 5rem;
     padding: 1rem;
@@ -29,18 +150,7 @@ nav img{
 
 }
 
-.top-section-background{
 
-    height: 35rem;
-    background-color:  #6c6ea8;
-    width: 100%;
-    position: absolute;
-    z-index: 3;
-    margin-top: 15rem;
-    
-
-
-}
 
 #box1{
     grid-column: 1;
@@ -59,21 +169,17 @@ nav img{
 .info-p{
     color: white ;
 
-    /*rgb(83, 83, 83)*/
+    /*rgb(83, 83, 83)
 }
 
 #box3{
    /* grid-column: 1;
-    grid-row: 2;*/
+    grid-row: 2;
     margin-top: 10rem;
     margin-bottom: 20rem;
 }
 
-#box1 img{
-    width: 80%;
-    margin-top: 3rem;
-    margin-left: 5rem;
-}
+
 
 .list-cont{
     display: flex;
@@ -119,7 +225,7 @@ li{
     margin-bottom: 0.5rem;
 }
 
-/* SKETCH-SECTION*/
+/* SKETCH-SECTION
 
 h2{
    margin-bottom: 10rem;
@@ -128,43 +234,9 @@ h2{
    font-size: 30px;
 }
 
-.sketch-cont{
-    display: flex;
-    margin-bottom: 20rem;
-    margin-left: 10rem;
-   
-}
 
-.sketch-img-cont img{
-    position: absolute;
-    width: 20rem;
-   
-    
-}
 
-#skisse1{
-    z-index: 4;
-    margin-left: 20rem;
-    margin-top: 6rem;
-}
 
-#skisse2{
-    z-index: 3;
-    margin-top: 10rem;
-    margin-left: 2rem;
-    bottom:30;
-}
-
-#skisse3{
-    z-index: 4;
-    margin-top: 15rem;
-}
-
-#skisse4{
-    z-index: 0;
-    margin-left: 5rem;
-    margin-bottom: 30rem;
-}
 
 .sketch-text-cont{
     margin-left: 50rem;
@@ -175,19 +247,10 @@ h2{
     margin-left: 6rem;
 }
 
-/*WIREFRAME-SECTION */
+/*WIREFRAME-SECTION 
 
-.wireframe-cont{
-    display:flex;
-    margin-top: 30rem;
-    background-color:  #6c6ea8;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-}
 
-.wireframe-img-cont img{  
-    width: 90%
-}
+
 
 .wireframe-text-cont{
     width: 70%;
@@ -213,7 +276,7 @@ h2{
     font-size: 18px;
 }
 
-/*PROTOTYPE-SECTION*/
+/*PROTOTYPE-SECTION
 
 
 .prototype-cont{
@@ -221,10 +284,7 @@ h2{
     margin-top: 20rem;
 }
 
-.prototype-img-cont img{  
-    width: 90%;
-    margin-left: 5rem;
-}
+
 
 .prototype-text-cont{
     width: 70%;
@@ -273,12 +333,12 @@ h2{
 
     /*#box1 img{
         margin-left: 1.5rem;
-    }*/
+    }
 
     .info-p{
         
         color: white;
-        /*color: rgb(83, 83, 83)*/
+        /*color: rgb(83, 83, 83)
       
     }
 
@@ -453,7 +513,7 @@ h2{
 
 
     body{
-        max-width: 100%;
+        max-width: 80%;
       
     }
 
@@ -507,4 +567,6 @@ h2{
         margin-left: 0rem;
     }
 }
+
+*/
 
