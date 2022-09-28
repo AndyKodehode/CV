@@ -450,13 +450,17 @@ h2{
 
 @media (max-width: 500px) {
 
+
+
     body{
         min-width: 100%;
         overflow-x: hidden;
-        margin: 0;
+        position: fixed;
     }
+    
+ 
 
-    #box1 img{
+    #box1 img {
         width: 40%;
         margin-left: 7rem;
         
