@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     max-width: 500px
 }
 
@@ -26,6 +26,7 @@ nav{
 }
 
 
+
 .top-section{
     
     display: flex;
@@ -44,7 +45,7 @@ nav img{
 }
 
 #box1{
-    width: 50%;
+    width: 70%;
     z-index: 0;
    
    
@@ -78,7 +79,7 @@ nav img{
     width: 100%;
     position: absolute;
     z-index: 0;
-    margin-top: 220rem;
+    margin-top: 235rem;
     
 
 
@@ -92,7 +93,7 @@ nav img{
     width: 100%;
     position: absolute;
     z-index: 0;
-    margin-top: 390rem;
+    margin-top: 430rem;
 
 }
 
@@ -100,7 +101,7 @@ nav img{
 .sketch-img-cont img{
     position: absolute;
     width: 10rem;
-    top: 60rem;
+    top: 70rem;
    
     
 }
@@ -146,14 +147,19 @@ nav img{
    
 }
 
+.wireframe-cont h3{
+    z-index: 4;
+    
+}
+
 
 .wireframe-img-cont {  
-    width: 90%;
     z-index: 4;
+    margin-left: 1.5rem;
 }
 
 .wireframe-img-cont img{
-    width: 80%;
+    width: 100%;
 }
 
 .wireframe-text-cont{
@@ -163,12 +169,55 @@ nav img{
 
 .prototype-img-cont img{  
     width: 90%;
-    margin-left: 5rem;
+    margin-left: 2rem;
+    
 }
 
 .prototype-cont{
     margin-top: 10rem;
 }
+
+.prototype-cont h3{
+    margin-left: 7rem;
+}
+
+.wireframe-text-cont p{
+    color: white;
+  }
+
+
+
+.wireframe-cont h3{
+    color: white;
+    margin-left: 7.5rem;
+}
+
+
+h3{
+    margin-bottom: 3rem;
+}
+
+.info-p{
+    color: white ;
+
+   
+}
+
+ .prototype-cont p{
+
+    margin-left: 1.5rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.wireframe-cont p{
+    margin-left: 1rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+
+
 
 
 /*
@@ -200,11 +249,7 @@ nav img{
     z-index: 2;
 }
 
-.info-p{
-    color: white ;
 
-    /*rgb(83, 83, 83)
-}
 
 #box3{
    /* grid-column: 1;
@@ -292,15 +337,9 @@ h2{
     
 }
 
-.wireframe-text-cont h3{
-    margin-left: 6rem;
-    margin-bottom: 5rem;
-    color: white;
-}
 
-.wireframe-text-cont p{
-  color: white;
-}
+
+
 
 
 .wireframe-text-cont a{
