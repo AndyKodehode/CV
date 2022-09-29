@@ -740,7 +740,7 @@ button:hover{
     body{
         margin-right: 5rem;
         max-width: 600px;
-        overflow-x: hidden;
+        overflow-x: visible;
     }
 
     nav{
