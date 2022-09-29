@@ -362,8 +362,8 @@ a{
         flex-direction: column-reverse;
         align-items: initial;
         justify-content: center;
-        margin-bottom: 1rem;
-        margin-top: 4rem;
+        margin-bottom: 0.5rem;
+        margin-top: 3rem;
     }
 
     .link{
@@ -409,7 +409,7 @@ a{
 
     .img-flex-div{
         margin-top: 0rem;
-        height: 40rem;
+        height: 20rem;
      
     }
 
@@ -444,8 +444,14 @@ a{
 
 
     .text-cont{
-        margin-top: 0.5rem;
+        margin-top: 0.2rem;
         margin-right: 17rem;
+    }
+
+    .single-img-div{
+
+        width: 10rem;
+        height: 10rem;
     }
 
   
