@@ -788,8 +788,8 @@ button:hover{
 @media( max-width: 400px){
 
     body{
-        width: 350px;
-        overflow: visible;
+        width: 400px;
+        overflow-x: hidden;
     }
 
     .menu ul{
