@@ -270,7 +270,7 @@ a{
     }
 
     .text-cont{
-        margin-top: 10rem;
+        margin-top: 22rem;
     }
 
     
@@ -321,7 +321,7 @@ a{
     }
 
    .text-cont{
-        margin-top: 5rem;
+        margin-top: 2rem;
         margin-right: 17rem;
     }
 
@@ -346,6 +346,7 @@ a{
     body{
         padding: 1rem;
         max-width: 600px;
+        
        
     }
 
@@ -439,6 +440,12 @@ a{
 
    #fontenehuset-link{
         margin-top: 2rem;
+    }
+
+
+    .text-cont{
+        margin-top: 0.5rem;
+        margin-right: 17rem;
     }
 
   
