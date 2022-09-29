@@ -5,7 +5,7 @@ body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
   margin-left: 2rem;
-  overflow-x: hidden;
+/*  overflow-x: hidden;*/
   
   
 }
@@ -740,7 +740,7 @@ button:hover{
     body{
         margin-right: 5rem;
         max-width: 600px;
-        overflow-x: visible;
+        
     }
 
     nav{
@@ -788,8 +788,8 @@ button:hover{
 @media( max-width: 400px){
 
     body{
-        max-width: 400px;
-        overflow-x: visible;
+        max-width: 350px;
+       
     }
 
     .menu ul{
