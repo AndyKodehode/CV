@@ -788,7 +788,7 @@ button:hover{
 @media( max-width: 400px){
 
     body{
-        width: 400px;
+        max-width: 400px;
         overflow-x: hidden;
     }
 
