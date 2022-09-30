@@ -175,3 +175,15 @@ nav{
   margin: auto;
   margin-top: 10rem;
 }
+
+
+@media(max-width: 800px){
+
+  .cv-container{
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
+  }
+
+
+}
