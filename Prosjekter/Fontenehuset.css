@@ -178,7 +178,7 @@ nav img{
 }
 
 .prototype-cont h3{
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 
 .wireframe-text-cont p{
@@ -189,7 +189,7 @@ nav img{
 
 .wireframe-cont h3{
     color: white;
-    margin-left: 7.5rem;
+    margin-left: 5rem; 
 }
 
 
@@ -214,6 +214,16 @@ h3{
     margin-left: 1rem;
     width: 100%;
     margin-top: 4rem;
+}
+
+/* h3{
+    margin-left: 0rem;
+
+} */
+
+.wireframe-cont h3{
+    color: black;
+ 
 }
 
 
@@ -258,7 +268,7 @@ h3{
     }
 
     h1{
-        margin-left: 9rem;
+        margin-left: 11rem;
         margin-bottom: 5rem;
         font-size: 3vw;
         margin-top: 2rem;
@@ -310,6 +320,12 @@ h3{
         margin-top: 500rem;
     
     }
+
+    
+
+
+
+  
   
     
 
@@ -342,10 +358,7 @@ h1{
     color: #2e2f4b;
 }
 
-h3{
-    margin-left: 2rem;
 
-}
 
 p{
     color: rgb(80, 79, 79);
