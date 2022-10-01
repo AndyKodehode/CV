@@ -395,7 +395,7 @@ a{
 
     .circle-arrow-up{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
       
     
@@ -403,7 +403,7 @@ a{
 
     .circle-arrow-up img{
         margin-top: 0rem;
-        margin-left: 12rem;
+        margin-left: 1rem;
         cursor: pointer;
     }
 
@@ -418,9 +418,9 @@ a{
         z-index: 5;
     }
 
-    .circle-arrow-div h4{
+     .circle-arrow-div h4{
         display: none;
-    }
+    } 
 
     #mobil{
         margin-left: 1rem;
