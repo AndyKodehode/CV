@@ -354,6 +354,7 @@ a{
         height: 100%;
        /* flex-direction: column-reverse;*/
         margin-left: 2rem;
+        margin-bottom: 5rem;
     }
 
     .img-cont{
