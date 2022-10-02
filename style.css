@@ -789,7 +789,7 @@ button:hover{
 
     body{
         max-width: 500px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         padding: 1rem;
       
        
@@ -820,7 +820,7 @@ button{
 
 .frontpage-text-cont{
 
-    margin-left: 1rem;
+    margin-left: 3rem;
 
 }
 
