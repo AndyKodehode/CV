@@ -377,7 +377,8 @@ a{
         border-bottom-style: solid;
         border-color: #5f46ffbe;
         cursor: pointer;
-        margin-top: 2rem;
+       
+       
        
     
     }
@@ -415,6 +416,7 @@ a{
     .img-flex-div{
         margin-top: 0rem;
         height: 20rem;
+        margin-bottom: 5rem;
      
     }
 
@@ -449,8 +451,12 @@ a{
 
 
     .text-cont{
+        display: flex;
         margin-top: 0.2rem;
         margin-right: 17rem;
+        margin-bottom: 30rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .single-img-div{
