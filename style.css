@@ -789,12 +789,14 @@ button:hover{
 
     body{
         max-width: 500px;
-        /* overflow-x: hidden; */
+        /* overflow-x: hidden;  */
         padding: 1rem;
       
        
        
     }
+
+ 
 
     .menu ul{
         margin-left: 15rem;
@@ -809,8 +811,8 @@ button:hover{
 
      .middle-div{
 
-      margin-right: 5rem;
-      width: 80%;
+      margin-left: 15rem;
+      width: 100%;
 
 }
 

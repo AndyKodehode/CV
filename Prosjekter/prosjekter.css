@@ -81,6 +81,10 @@ nav img{
     cursor: pointer;
 }
 
+#Js-circle{
+    margin-top: 4rem;
+}
+
 .single-img-div{
     display: none;
     width: 100%;
