@@ -259,6 +259,10 @@ h3{
         z-index: 0;
         width: 60%;
     }
+
+    #box1 img{
+        margin-left: 5rem;
+    }
     
     #box2{
         grid-column: 2;
@@ -279,7 +283,12 @@ h3{
     .prosess-section{
 
         margin-left: 20rem;
-        margin-top: 5rem;
+        margin-top: 10rem;
+    }
+
+    .prosess-section h2{
+
+        margin-left: 17rem;
     }
 
     .sketch-cont{
@@ -290,14 +299,14 @@ h3{
     .sketch-text-cont{
         margin-left: 1rem;
         padding-right: 3rem;
-        margin-top: 40rem;
+        margin-top: 50rem;
     }
     
 
     .sketch-img-cont img{
         position: absolute;
         width: 20rem;
-        top: 70rem;
+        top: 80rem;
        
        
         
@@ -312,13 +321,23 @@ h3{
     .top-section-background-three{
 
         visibility: visible;
-        height: 30rem;
+        height: 55rem;
         background-color:  #6c6ea8;
         width: 100%;
         position: absolute;
         z-index: 0;
-        margin-top: 500rem;
+        margin-top: 520rem;
     
+    }
+
+    .top-section-background-two{
+
+        height: 50rem;
+        margin-top: 270rem;
+    }
+
+    a{
+      color: white
     }
 
     
