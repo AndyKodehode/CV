@@ -16,7 +16,9 @@ body{
 
 h2{
     font-size: 2rem;
-    text-decoration: underline;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    /* text-decoration: underline; */
 }
 
 
@@ -101,11 +103,16 @@ nav img{
 
 }
 
+.prosess-section{
+    margin-top: 10rem;
+    padding-right: 1rem;
+}
+
 
 .sketch-img-cont img{
     position: absolute;
     width: 10rem;
-    top: 70rem;
+    top: 75em;
    
     
 }
@@ -137,7 +144,7 @@ nav img{
 .sketch-text-cont{
     margin-left: 1rem;
     padding-right: 3rem;
-    margin-top: 40rem;
+    margin-top: 30rem;
 }
 
 .sketch-text-cont h3{
@@ -147,12 +154,17 @@ nav img{
 .wireframe-cont{
     display:flex;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-top: 7rem;
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    margin-bottom: 10rem;
+    /* padding-bottom: 10rem; */
    
    
 }
+
+/* #ReDesign{
+    margin-top: 12rem;
+} */
 
 .wireframe-cont h3{
     z-index: 4;
@@ -190,7 +202,7 @@ nav img{
 }
 
 .wireframe-text-cont p{
-    color: white;
+    color: black;
   }
 
 
@@ -201,7 +213,7 @@ h3{
 
 
 .info-p{
-    color: white ;
+    color: white;
 
    
 }
@@ -226,14 +238,14 @@ h3{
 
 .wireframe-cont h3{
     z-index: 4;
-    color: white;
+    color: black;
     margin-left: 3rem;
  
 }
 
 
 .white-text{
-    color: white;
+    color: black;
 }
 
 .wireframe-text-cont a{
@@ -314,7 +326,7 @@ h3{
     .sketch-text-cont{
         margin-left: 1rem;
         padding-right: 3rem;
-        margin-top: 50rem;
+        margin-top: 45rem;
     }
     
 
@@ -336,12 +348,12 @@ h3{
     .top-section-background-three{
 
         visibility: visible;
-        height: 55rem;
+        height: 30rem;
         background-color:  #6c6ea8;
         width: 100%;
         position: absolute;
         z-index: 0;
-        margin-top: 520rem;
+        margin-top: 200rem;
     
     }
 
@@ -353,6 +365,14 @@ h3{
 
     a{
       color: white
+    }
+
+    .prototype-cont{
+        margin-top: 10rem;
+    }
+
+    .wireframe-cont{
+        margin-top: 10rem;
     }
 
     
